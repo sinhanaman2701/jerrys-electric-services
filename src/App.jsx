@@ -37,7 +37,7 @@ function App() {
             </div>
             <div className="hidden md:flex items-center gap-8">
               <a href="#services" className="text-gray-300 hover:text-white transition-colors">Services</a>
-              <a href="#why-us" className="text-gray-300 hover:text-white transition-colors">Why Us</a>
+              <a href="#why-us" className="text-gray-300 hover:text-white transition-colors">About Us</a>
               <a href="#testimonials" className="text-gray-300 hover:text-white transition-colors">Reviews</a>
               <a href="#contact" style={{ background: 'linear-gradient(135deg, #7c3aed 0%, #db2777 100%)' }} className="text-white px-5 py-2.5 rounded-lg font-medium" onClick={(e) => { e.preventDefault(); document.getElementById('contact').scrollIntoView({behavior: 'smooth'}); }}>Get Free Quote</a>
             </div>
@@ -50,7 +50,7 @@ function App() {
           <div className="md:hidden bg-gray-900" style={{ borderTop: '1px solid #1f2937' }}>
             <div className="px-4 py-4 space-y-3">
               <a href="#services" className="block py-2 text-gray-300">Services</a>
-              <a href="#why-us" className="block py-2 text-gray-300">Why Us</a>
+              <a href="#why-us" className="block py-2 text-gray-300">About Us</a>
               <a href="#testimonials" className="block py-2 text-gray-300">Reviews</a>
               <a href="#contact" className="block py-2" style={{ color: '#a78bfa' }}>Get Free Quote</a>
             </div>
